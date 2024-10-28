@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
+  # config/routes.rb
+  root 'users#index'  # Replace 'home#index' with your actual controller and action
 
   # action cable server
   mount ActionCable.server => "/cable"
